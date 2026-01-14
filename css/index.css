@@ -41,7 +41,59 @@ header div{
     gap: 16px;
 }
 /* Main */
-
+    /* section 1 */
+    .s1{
+        max-width: 1904px;
+        margin: auto;
+        padding: 50px 0;
+        background-image: url(../img/index/logo-s1.png);
+        background-repeat: no-repeat;
+        background-size: 900px;
+        background-position-x: 1010px;
+        background-position-y: -130px;
+    }
+    .s1d1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 340px;
+        max-width: 1440px;
+        margin: auto;
+        align-items: center;
+    }
+    .s1 h1, .s1 h2{
+        font-family: Gloria Hallelujah;
+        padding: 20px 0;
+    }
+    .s1 h1{
+        font-size: 45px;
+        line-height: 45px;
+        padding-top: 60px;
+    }
+    .s1 h2{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .bvn{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #cc3900;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 24px;
+    }
+      hr {
+        border: none;
+        border-top: 2px solid #cc3900;
+        overflow: visible;
+        width: 50px;
+    }
+    .s1>div>article>a{
+        border: 1px solid #fbbbcd;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+    }
 /* Footer */
 footer{
     display: flex;
