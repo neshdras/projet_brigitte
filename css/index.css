@@ -221,6 +221,12 @@ header div{
         line-height: 24px;
     }
 
+
+    .s6{
+        display: flex;
+        flex-direction: column;
+        background-color: #cc3900;
+    }
 /* Footer */
 footer{
     display: flex;
