@@ -82,11 +82,14 @@ header div{
         font-weight: 500;
         line-height: 24px;
     }
-      hr {
+    hr {
         border: none;
         border-top: 2px solid #cc3900;
         overflow: visible;
         width: 50px;
+    }
+    .s1p{
+        padding: 20px 0 50px 0;
     }
     .s1>div>article>a{
         border: 1px solid #fbbbcd;
@@ -94,6 +97,77 @@ header div{
         text-decoration: none;
         color: #000;
     }
+
+/* Section 2 */
+
+    .s2{
+        max-width: 1904px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        padding: 170px 150px;
+        background-color: #FBBBCD;
+    }
+    .s2p{
+        padding: 20px 0;
+    }
+    .s2 h2{
+        font-family: Gloria Hallelujah;
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 380px);
+        gap: 10px;
+        padding: 10px;
+    }
+    .one{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .two{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .three{
+        width: 100%;
+        object-fit: fill;
+        height: 100%;
+    }
+    .four{
+        width: 100%;
+        object-fit: fill;
+        height: 100%;
+    }
+    .five{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        grid-column: 1/3;
+        
+    }
+    .six{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        grid-column: 3/5;
+    }
+    .s2 a{
+        width: max-content;
+        text-decoration: none;
+        color: #000;
+    }
+
 /* Footer */
 footer{
     display: flex;
