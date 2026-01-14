@@ -101,8 +101,6 @@ header div{
 /* Section 2 */
 
     .s2{
-        max-width: 1904px;
-        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -110,9 +108,15 @@ header div{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-items: center;
-        padding: 170px 150px;
         background-color: #FBBBCD;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .text div{
+        max-width : 652px;
+        margin: auto;
     }
     .s2p{
         padding: 20px 0;
@@ -121,6 +125,7 @@ header div{
         font-family: Gloria Hallelujah;
         font-size: 45px;
         line-height: 45px;
+        padding-bottom: 50px;
     }
     .gallery{
         display: grid;
@@ -141,12 +146,12 @@ header div{
     }
     .three{
         width: 100%;
-        object-fit: fill;
+        object-fit: cover;
         height: 100%;
     }
     .four{
         width: 100%;
-        object-fit: fill;
+        object-fit: cover;
         height: 100%;
     }
     .five{
@@ -164,8 +169,56 @@ header div{
     }
     .s2 a{
         width: max-content;
+        color: #000;
+    }
+/* Section 3 */
+
+    .s3{
+        max-width: 1440px;
+        margin: auto;
+        padding: 60px 0;
+    }
+    .s3a1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .s3a1 h2{
+        font-family: Gloria Hallelujah;
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .s3a1 a{
         text-decoration: none;
         color: #000;
+        border: 1px solid #FBBBCD;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+    .s3a2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 30px;
+    }    
+    .s3a2 div{
+        text-align: center;
+    }
+    .s3a2 img{
+        object-fit: cover;
+        width: 330px;
+        height: 300px;
+    }
+    .s3a2 h3{
+        font-family: Gloria Hallelujah;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+    .s3a2 p{
+        padding: 10px;
+        line-height: 24px;
     }
 
 /* Footer */
