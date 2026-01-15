@@ -40,6 +40,9 @@ header div{
     flex-wrap: wrap;
     gap: 16px;
 }
+#menu{
+    display: none;
+}
 /* Main */
     /* section 1 */
     .s1{
@@ -406,4 +409,58 @@ footer p a{
 }
 .ml{
     font-family: Noto Sans;
+}
+
+@media screen and (max-width:1024px){
+    header{
+        gap: 20px;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+    #menu{
+        display: block;
+    }
+    header ul, header div{
+        display: none;
+    }
+    .s1d1{
+        gap: 0;
+    }
+    .s1 img{
+        width: 100%;
+    }
+    .s2{
+        grid-template-columns: none;
+    }
+    .text{
+        padding: 50px 0;
+    }
+    .s3a1 h2{
+        font-size: 40px;
+    }
+    .s3a2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #artiste{
+        grid-template-columns: none;
+    }
+    .s5 h2{
+        font-size: 40px;
+    }
+    .s5a2{
+        grid-template-columns: none;
+        gap: 30px;
+    }
+    .s5a2 div{
+        flex-direction: row;
+    }
+    .s5a2 img{
+        width: auto;
+    }
+    footer{
+        gap: 20px;
+    }
+    .s1, .s3, .s5{
+        margin: 0 10px;
+    }
 }
