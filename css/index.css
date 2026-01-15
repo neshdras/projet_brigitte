@@ -103,7 +103,7 @@ header div{
     .s2{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-top: 80px;
+        padding-top: 120px;
     }
     .text{
         display: flex;
