@@ -76,3 +76,28 @@ footer p a{
 .ml{
     font-family: Noto Sans;
 }
+
+@media screen and (max-width:1024px) {
+    header{
+        gap: 20px;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+    #menu{
+        display: block;
+    }
+    header ul, header div{
+        display: none;
+    }
+    footer{
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+
+    .fd2 ul{
+        display:none;
+    }
+    
+}

@@ -139,3 +139,41 @@ footer p a{
 .ml{
     font-family: Noto Sans;
 }
+
+@media screen and (max-width:1024px) {
+    header{
+        gap: 20px;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+    #menu{
+        display: block;
+    }
+    header ul, header div{
+        display: none;
+    }
+    main{
+        background-size: 80%;
+        background-position: 140% 105%;
+        margin: 0 20px;
+    }
+    section{
+        gap: 30px;
+        grid-template-columns: none;
+    }
+    footer{
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    main{
+        background-size: 100%;
+        background-position: 140% 65%;
+    }
+
+    .fd2 ul{
+        display:none;
+    }
+    
+}
