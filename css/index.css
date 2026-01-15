@@ -103,6 +103,7 @@ header div{
     .s2{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding-top: 80px;
     }
     .text{
         display: flex;
@@ -272,6 +273,65 @@ header div{
     }
     .fa_artiste{
         margin-right: 10px
+    }
+
+
+    .s5{
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 80px 0;
+    }
+    .s5a1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .s5a1 a{
+        color: #000;
+        text-decoration: none;
+        border: solid 1px #FBBBCD;
+        padding: 10px 20px;
+    }
+    .s5 h2{
+        font-family: Gloria Hallelujah;
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: 0;
+        font-weight: 400;
+        
+    }
+    .s5a2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .s5a2 div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .s5 h3 a{
+        font-family: Gloria Hallelujah;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0;
+        text-decoration: none;
+        color: #000;
+        font-weight: 400;
+    }
+    .s5a2 img{
+        object-fit: cover;
+        width: 464px;
+        max-height: 500px;
+    }
+    .read{
+        text-decoration: none;
+        line-height: 24px;
+        font-weight: 600;
+        color: #000;
     }
 
     .s6{
