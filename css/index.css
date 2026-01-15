@@ -221,6 +221,58 @@ header div{
         line-height: 24px;
     }
 
+    .s4{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        background-color: #f7f7f7;
+        padding: 60px;
+        gap: 80px;
+    }
+    .s4 h2{
+        font-family: Gloria Hallelujah;
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: 0;
+    }
+    #artiste{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+    #artiste article{
+        max-width: 474px;
+        margin: auto;
+        display: grid;
+        gap: 14px;
+    }
+    #artiste img{
+        object-fit: cover;
+        width: 454px;
+        height: 300px;
+        justify-self: center;
+    }
+    #artiste>article>h3{
+        justify-self: center;
+        font-family: Gloria Hallelujah;
+        font-size: 18px;
+    }
+    #artiste>article>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 14px;
+    }
+    .site{
+        color: #000;
+        text-decoration: none;
+        border: 1px solid #FBBBCD;
+        padding: 10px 20px;
+    }
+    .fa_artiste{
+        margin-right: 10px
+    }
 
     .s6{
         display: flex;
@@ -254,7 +306,8 @@ header div{
     .s6 a{
         text-decoration: none;
         padding: 10px 20px;
-        color: #fff
+        color: #fff;
+        border: solid 1px #fff;
     }
 /* Footer */
 footer{
