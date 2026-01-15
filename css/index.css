@@ -464,3 +464,52 @@ footer p a{
         margin: 0 10px;
     }
 }
+@media screen and (max-width:767px) {
+    .s1d1{
+        grid-template-columns: none;
+        gap: 30px;
+    }
+    .text{
+        padding: 20px;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+    }
+    .five, .six{
+        grid-column: auto;
+    }
+    .s3a1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .s3a2{
+        grid-template-columns: none;
+    }
+    .s3a2 img{
+        width: 280px;
+    }
+    .s4{
+        padding: 60px 0;
+    }
+    .s4 h2{
+        font-size: 30px;
+    }
+    .s5a1{
+        gap: 20px;
+    }
+    .s5a2 div{
+        flex-direction: column;
+    }
+    .s5a2 img{
+        width: 280px;
+    }
+    .s6{
+        padding: 100px 10px;
+    }
+    .fd2 ul{
+        display:none;
+    }
+
+    
+}
