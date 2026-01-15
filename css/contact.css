@@ -16,7 +16,7 @@ header{
     justify-content: space-evenly;
     max-width: 1904px;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 0 70px 0;
 }
 header ul{
     display: flex;
@@ -40,6 +40,68 @@ header div{
     gap: 16px;
 }
 
+section{
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 320px;
+}
+main{
+    background-image: url(../img/index/logo-s1.png);
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: 68%;
+    background-size: 24%;
+}
+.a1 h1{
+    font-family: Gloria Hallelujah;
+    font-size: 45px;
+    line-height: 45px;
+    letter-spacing: 0;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.a1>p{
+    padding-bottom: 30px;
+}
+.a1 div{
+    display: flex;
+    padding-bottom: 50px;
+}
+.a1 div p{
+    font-family: Gloria Hallelujah;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+.a1 i{
+    margin-right: 20px;
+    color: #cc3900;
+}
+form{
+    max-width: 456px;
+}
+main form div{
+    display: grid;
+    padding: 10px 0;
+}
+form input{
+    padding: 10px 0 10px 10px;
+    border-radius: 6px;
+}
+form textarea{
+    resize: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+#send{
+    background-color: #FBBBCD;
+    padding: 20px 0;
+    border-radius: 20px;
+    color: #fff;
+}
+
 footer{
     display: flex;
     justify-content: space-evenly;
@@ -47,7 +109,7 @@ footer{
     flex-wrap: wrap;
     max-width: 1904px;
     margin: auto;
-    padding: 20px 0;
+    padding: 70px 0 20px 0;
 }
 .fd2{
     display: grid;
