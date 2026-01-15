@@ -38,7 +38,60 @@ header div{
     flex-wrap: wrap;
     gap: 16px;
 }
+#menu{
+    display: none;
+}
 
+.s1{
+    background-color: #FBBBCD;
+    padding: 178px 0;
+    display: grid;
+    align-items: center;
+    justify-items: center
+}.s1 h1{
+    font-family: Gloria Hallelujah;
+    font-size: 45px;
+    line-height: 45px;
+    letter-spacing: 0;
+}
+.s2{
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+.s2>p{
+    padding-top: 20px;
+    color: #7A7A7A;
+}
+.s2 div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1440px;
+    margin: auto;
+    gap: 30px 0;
+}
+.s2 img{
+    width: 463px;
+    height: 463px;
+    object-fit: cover;
+}
+.read{
+    font-style: 14px;
+    line-height: 21px;
+    color: #605be5;
+    text-decoration: none;
+}
+.date{
+    color: #9C9C9C;
+    font-size: 14px;
+    line-height: 21px;
+}
+.date>a{
+    color: #9C9C9C;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
 footer{
     display: flex;
     justify-content: space-evenly;
