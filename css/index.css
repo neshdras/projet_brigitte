@@ -226,6 +226,35 @@ header div{
         display: flex;
         flex-direction: column;
         background-color: #cc3900;
+        padding: 100px;
+    }
+    .s6 div{
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .s6 h2{
+        font-family: Gloria Hallelujah;
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: 0;
+        color: #fff;
+    }
+    .s6 p{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0;
+        color: #fff;
+        padding: 58px 0;
+    }
+    .s6 a{
+        text-decoration: none;
+        padding: 10px 20px;
+        color: #fff
     }
 /* Footer */
 footer{
