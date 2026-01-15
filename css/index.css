@@ -492,6 +492,9 @@ footer p a{
     .s4{
         padding: 60px 0;
     }
+    #artiste img{
+        width: 280px;
+    }
     .s4 h2{
         font-size: 30px;
     }
