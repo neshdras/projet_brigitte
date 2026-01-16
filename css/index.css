@@ -131,7 +131,7 @@ header div{
         line-height: 45px;
         padding-bottom: 50px;
     }
-    .gallery{
+    #gallery{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 380px);
@@ -472,7 +472,7 @@ footer p a{
     .text{
         padding: 20px;
     }
-    .gallery{
+    #gallery{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: none;
     }

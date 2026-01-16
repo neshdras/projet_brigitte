@@ -38,7 +38,35 @@ header div{
     flex-wrap: wrap;
     gap: 16px;
 }
+#menu{
+    display: none;
+}
 
+section{
+    max-width: 1440px;
+    margin: auto;
+}
+h1{
+    font-size: 45px;
+    line-height: 45px;
+    font-family: Gloria Hallelujah;
+}
+section div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 110px 0;
+    gap: 40px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: Gloria Hallelujah;
+}
+.p5{
+    margin-top: 76px;
+}
 
 footer{
     display: flex;
