@@ -118,6 +118,12 @@ footer p a{
     header ul, header div{
         display: none;
     }
+    section{
+        margin: 0 30px;
+    }
+    section div{
+        grid-template-columns: 1fr 1fr;
+    }
     footer{
         gap: 20px;
     }
@@ -125,9 +131,12 @@ footer p a{
 }
 
 @media screen and (max-width:767px) {
-
+    section div>article>img{
+        width: 100%;
+    }
     .fd2 ul{
         display:none;
     }
+
     
 }
