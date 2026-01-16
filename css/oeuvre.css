@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: Noto Sans;
+    scroll-behavior: smooth;
 }
 .orang{
     color: #cc3900;
