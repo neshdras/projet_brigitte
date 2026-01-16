@@ -8,6 +8,21 @@
         color: #000;
     }
 }
+a:hover{
+    color: #cc3900;
+    transition: all 0.3s ease-in-out;
+}
+.btnpink{
+        border: 1px solid #fbbbcd;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+        &:hover{
+            color: #fff;
+            background-color: #FBBBCD;
+            transition: all 0.3s ease-in-out;
+        }
+    }
 
 /* Header */
 header{
@@ -94,12 +109,6 @@ header div{
     .s1p{
         padding: 20px 0 50px 0;
     }
-    .s1>div>article>a{
-        border: 1px solid #fbbbcd;
-        padding: 10px 20px;
-        text-decoration: none;
-        color: #000;
-    }
 
 /* Section 2 */
 
@@ -174,6 +183,10 @@ header div{
     .s2 a{
         width: max-content;
         color: #000;
+        &:hover{
+             color: #cc3900;
+             transition: all 0.3s ease-in-out;
+        }
     }
 /* Section 3 */
 
@@ -192,13 +205,6 @@ header div{
         font-family: Gloria Hallelujah;
         font-size: 45px;
         line-height: 45px;
-    }
-    .s3a1 a{
-        text-decoration: none;
-        color: #000;
-        border: 1px solid #FBBBCD;
-        padding: 10px 20px;
-        font-weight: 500;
     }
     .s3a2{
         display: grid;
@@ -268,12 +274,6 @@ header div{
         align-items: center;
         padding-top: 14px;
     }
-    .site{
-        color: #000;
-        text-decoration: none;
-        border: 1px solid #FBBBCD;
-        padding: 10px 20px;
-    }
     .fa_artiste{
         margin-right: 10px
     }
@@ -292,12 +292,6 @@ header div{
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-    }
-    .s5a1 a{
-        color: #000;
-        text-decoration: none;
-        border: solid 1px #FBBBCD;
-        padding: 10px 20px;
     }
     .s5 h2{
         font-family: Gloria Hallelujah;
@@ -371,6 +365,12 @@ header div{
         padding: 10px 20px;
         color: #fff;
         border: solid 1px #fff;
+        &:hover{
+            color: #cc3900;
+            background-color: #fff;
+            border-color: #cc3900;
+            transition: all 0.3s ease-in-out;
+        }
     }
 /* Footer */
 footer{

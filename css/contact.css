@@ -89,11 +89,13 @@ main form div{
 form input{
     padding: 10px 0 10px 10px;
     border-radius: 6px;
+    border: solid 1px #818a91;
 }
 form textarea{
     resize: none;
     border-radius: 6px;
     padding: 10px;
+    border: solid 1px #818a91;
 }
 #send{
     background-color: #FBBBCD;

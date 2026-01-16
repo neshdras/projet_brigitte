@@ -8,6 +8,10 @@
         color: #000;
     }
 }
+a:hover{
+    color: #cc3900;
+    transition: all 0.3s ease-in-out;
+}
 header{
     display: flex;
     flex-wrap: wrap;
